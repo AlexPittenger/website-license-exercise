@@ -26,9 +26,9 @@ if (!isset($_SESSION['userID'])){
 }
 
 
-$controllerClassName = $action . "Controller";
+$controllerClassName = $action;
 
-$controllerFile = "controller/$className.php";
+$controllerFile = "Controller/$className.php";
 
 if (file_exists($controllerFile)) {
 
